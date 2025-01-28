@@ -1,156 +1,182 @@
 <!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>Kevin Walter Portfolio</title>
+    <!-- Add a meta description for SEO -->
+    <meta name="description" content="Kevin Walter's Portfolio - Data Scientist and Analyst specializing in machine learning, statistics, and data visualization.">
+    
+    <!-- Add a favicon for better branding -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    
+    <!-- Include Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Include Animate.css for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
 
+    <!-- Dark/Light Mode Toggle -->
+    <button id="theme-toggle" class="theme-toggle">
+        <i class="fas fa-moon"></i> <!-- Moon icon for dark mode -->
+        <i class="fas fa-sun"></i> <!-- Sun icon for light mode -->
+    </button>
 
-<html>
-	<head>
-		<title>Kevin Walter Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+        <!-- Intro Section -->
+        <div id="intro" class="animate__animated animate__fadeIn">
+            <h1>Kevin Walter<br />Portfolio</h1>
+            <p>As a data scientist and analyst, I specialize in machine learning, statistics, and data visualization. My work includes fine-tuning AI models for projects like BurnScape, where I improved classification accuracy for detecting burned surfaces. I have expertise in Python, SQL, Power BI, and advanced statistical techniques, which I have applied to real-world challenges like customer retention analysis and YouTube engagement reporting. I thrive on using data to generate impactful insights and drive data-driven decision-making in diverse domains. Let us connect! <a href="https://www.linkedin.com/in/kevin-walter-902016228/">@ Kevin Walter</a></p>
+            <ul class="actions">
+                <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+            </ul>
+        </div>
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Kevin Walter<br />
-						Portfolio</h1>
-						<p>As a data scientist and analyst, I specialize in machine learning, statistics and data visualization. My work includes fine-tuning AI models for projects like BurnScape, where I improved classification accuracy for detecting burned surfaces. I have expertise in Python, SQL, Power BI, and advanced statistical techniques, which I have applied to real-world challenges like customer retention analysis and YouTube engagement reporting. I thrive on using data to generate impactful insights and drive data-driven decision-making in diverse domains.Let us connect! <a href="https://www.linkedin.com/in/kevin-walter-902016228/">@ Kevin Walter</a> 
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">Cruise through</a>
+        </header>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Cruise through</a>
-					</header>
+        <!-- Navigation -->
+        <nav id="nav">
+            <ul class="links">
+                <li class="active"><a href="index.html">Projects</a></li>
+                <!-- Add more navigation links if needed -->
+            </ul>
+            <ul class="icons">
+                <li><a href="https://www.linkedin.com/in/kevin-walter-902016228/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://github.com/Perkieee" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+            </ul>
+        </nav>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/kevin-walter-902016228/" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
-							<li><a href="https://github.com/Perkieee" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+        <!-- Main Content -->
+        <div id="main">
 
-				<!-- Main -->
-					<div id="main">
+            <!-- Featured Project -->
+            <article class="post featured animate__animated animate__fadeInUp">
+                <header class="major">
+                    <h2><a href="https://devpost.com/software/burnscape">BurnScape – Fine-Tuning a Pre-trained Model for Burned and Unburned Surface Detection</a></h2>
+                    <p>BurnScape leverages AI and geospatial data to detect burned vs unburned surfaces, using the PrithviT_100m pre-trained model for image segmentation. We tackled challenges like imbalanced datasets and geospatial data processing, enhancing my skills in machine learning, hyperparameter tuning, and model evaluation. This project deepened my passion for AI-driven environmental solutions.</p>
+                </header>
+                <a href="https://github.com/Perkieee/BurnScape" class="image main"><img src="images/Burnscape1.jpg" alt="BurnScape Project" /></a>
+                <ul class="actions special">
+                    <li><a href="https://github.com/Perkieee/BurnScape" class="button large">Explore the Project</a></li>
+                </ul>
+            </article>
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-				
-									<h2><a href="https://devpost.com/software/burnscape">BurnScape – Fine-Tuning a Pre-trained Model for Burned and Unburned Surface Detection
-										<br />
-									</a></h2>
-									<p>BurnScape leverages AI and geospatial data to detect burned vs unburned surfaces, using the PrithviT_100m pre-trained model for image segmentation. We tackled challenges like imbalanced datasets and geospatial data processing, enhancing my skills in machine learning, hyperparameter tuning, and model evaluation. This project deepened my passion for AI-driven environmental solutions.</p>
-								</header>
-								<a href="https://github.com/Perkieee/BurnScape" class="image main"><img src="images/Burnscape1.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="https://github.com/Perkieee/BurnScape" class="button large">Explore the Project</a></li>
-								</ul>
-							</article>
+            <!-- Projects Grid -->
+            <section class="posts">
+                <!-- Dog Breed Classification -->
+                <article class="animate__animated animate__fadeInLeft">
+                    <header>
+                        <h2><a href="https://github.com/Perkieee/Pre-trained-Image-Classifier-to-Identify-Dog-Breeds-main">Dog-Breed Image Classification</a></h2>
+                    </header>
+                    <a href="https://github.com/Perkieee/Pre-trained-Image-Classifier-to-Identify-Dog-Breeds-main" class="image fit"><img src="images/dog_breed.jpg" alt="Dog Breed Classification" /></a>
+                    <p>This project focuses on classifying images of dogs into specific breeds, utilizing machine learning to distinguish between dog and non-dog images. The classifier leverages pre-trained Convolutional Neural Network (CNN) models to identify accurately whether an image contains a dog and, if so, predict its breed.</p>
+                    <ul class="actions special">
+                        <li><a href="https://github.com/Perkieee/Pre-trained-Image-Classifier-to-Identify-Dog-Breeds-main" class="button">Explore the Project</a></li>
+                    </ul>
+                </article>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
+                <!-- Crop Disease Detection -->
+                <article class="animate__animated animate__fadeInRight">
+                    <header>
+                        <h2><a href="#">Crop Disease Detection<br />**To be added soon**</a></h2>
+                    </header>
+                    <a href="#" class="image fit"><img src="images/pic05.jpg" alt="Crop Disease Detection" /></a>
+                    <p>The project aims to develop robust machine learning models for detecting diseases in images of corn, pepper, and tomato crops. These models should be able to generalize well to new, unseen diseases and run efficiently on entry-level smartphones.</p>
+                    <ul class="actions special">
+                        <li><a href="#" class="button">Explore the Project</a></li>
+                    </ul>
+                </article>
 
-									<header>
-										<h2><a href="https://github.com/Perkieee/Pre-trained-Image-Classifier-to-Identify-Dog-Breeds-main">Dog-Breed Image Classification<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/Perkieee/Pre-trained-Image-Classifier-to-Identify-Dog-Breeds-main" class="image fit"><img src="images/dog_breed.jpg" alt="" /></a>
-									<p>This project focuses on classifying images of dogs into specific breeds, utilizing machine learning to distinguish between dog and non-dog images. The classifier leverages pre-trained Convolutional Neural Network (CNN) models to identify accurately whether an image contains a dog and, if so, predict its breed. The primary goal is to assess the model's ability to correctly classify dog breeds.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Perkieee/Pre-trained-Image-Classifier-to-Identify-Dog-Breeds-main" class="button">Explore the project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="#">CROP DISEASE DETECTION <br />
-										**To be added soon**</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<p>The project aims to develop robust machine learning models for detecting diseases in images of corn, pepper, and tomato crops. These models should be able to generalize well to new, unseen diseases and run efficiently on entry-level smartphones, which are widely used by subsistence farmers in Africa.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Explore the project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="https://tinyurl.com/k4fess77">YouTube Analytics Report: June 2024 Insights HealthyPlace <br />
-										</a></h2>
-									</header>
-									<a href="https://tinyurl.com/k4fess77" class="image fit"><img src="images/HealthyPlace.PNG" alt="" /></a>
-									<p>Collected data and stored data in a local database. Queried the local database using SQL and imported my data to Jupyter lab for further pre-processing and EDA with Python. Executed an in-depth HealthyPlace YouTube Analytics Report for May 2024</p>
-									<ul class="actions special">
-										<li><a href="https://tinyurl.com/k4fess77" class="button">Explore the Project</a></li>
-									</ul>
-								</article>
-								<article>	
-									<header>
-										<h2><a href="https://tinyurl.com/9szu3bwk">CUSTOMER RETENTION DASHBOARD USING POWER BI<br />
-										</a></h2>
-									</header>
-									<a href="https://tinyurl.com/9szu3bwk" class="image fit"><img src="images/Customer churn.PNG" alt="" /></a>
-									<p>Developed a comprehensive Power BI dashboard to analyze and visualize customer churn 
-										data for a telecommunications company as part of the PWC job simulation training</p>
-									<ul class="actions special">
-										<li><a href="https://tinyurl.com/9szu3bwk" class="button">Explore the Project</a></li>
-									</ul>
-								</article>
-								<article>																	
-							</section>
+                <!-- YouTube Analytics Report -->
+                <article class="animate__animated animate__fadeInLeft">
+                    <header>
+                        <h2><a href="https://tinyurl.com/k4fess77">YouTube Analytics Report: June 2024 Insights HealthyPlace</a></h2>
+                    </header>
+                    <a href="https://tinyurl.com/k4fess77" class="image fit"><img src="images/HealthyPlace.PNG" alt="YouTube Analytics Report" /></a>
+                    <p>Collected data and stored data in a local database. Queried the local database using SQL and imported my data to Jupyter lab for further pre-processing and EDA with Python. Executed an in-depth HealthyPlace YouTube Analytics Report for May 2024.</p>
+                    <ul class="actions special">
+                        <li><a href="https://tinyurl.com/k4fess77" class="button">Explore the Project</a></li>
+                    </ul>
+                </article>
 
+                <!-- Customer Retention Dashboard -->
+                <article class="animate__animated animate__fadeInRight">
+                    <header>
+                        <h2><a href="https://tinyurl.com/9szu3bwk">Customer Retention Dashboard Using Power BI</a></h2>
+                    </header>
+                    <a href="https://tinyurl.com/9szu3bwk" class="image fit"><img src="images/Customer churn.PNG" alt="Customer Retention Dashboard" /></a>
+                    <p>Developed a comprehensive Power BI dashboard to analyze and visualize customer churn data for a telecommunications company as part of the PWC job simulation training.</p>
+                    <ul class="actions special">
+                        <li><a href="https://tinyurl.com/9szu3bwk" class="button">Explore the Project</a></li>
+                    </ul>
+                </article>
+            </section>
+        </div>
 
+        <!-- Footer -->
+        <footer id="footer">
+            <section class="split contact">
+                <section class="alt">
+                    <h3>Location</h3>
+                    <p>Nairobi, Kenya</p>
+                </section>
+                <section>
+                    <h3>Phone</h3>
+                    <p><a href="#">(+254) 70602-3835</a></p>
+                </section>
+                <section>
+                    <h3>Email</h3>
+                    <p><a href="#">kevinchronicle17@outlook.com</a></p>
+                </section>
+                <section>
+                    <h3>Socials</h3>
+                    <ul class="icons alt">
+                        <li><a href="https://www.linkedin.com/in/kevin-walter-902016228/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                        <li><a href="https://github.com/Perkieee" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                    </ul>
+                </section>
+            </section>
+        </footer>
 
-						<section class="split contact">
-							<section class="alt">
-								<h3>Location</h3>
-								<p><br />
-								Nairobi,Kenya</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(+254) 70602-3835</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">kevinchronicle17@outlook.com</a></p>
-							</section>
-							<section>
-								<h3>Socials</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/kevin-walter-902016228/" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
-									<li><a href="https://github.com/Perkieee" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+        <!-- Copyright -->
+        <div id="copyright">
+            <ul>
+                <li>&copy; Kevin Walter</li>
+                <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </div>
+    </div>
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
 
-			</div>
+    <!-- Dark/Light Mode Toggle Script -->
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            themeToggle.querySelector('.fa-moon').classList.toggle('hidden');
+            themeToggle.querySelector('.fa-sun').classList.toggle('hidden');
+        });
+    </script>
+</body>
 </html>
